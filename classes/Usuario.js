@@ -18,8 +18,7 @@ export class Usuario {
     if(actual == this.#pin){
       this.#pin = nuevo
       return true
-    } else {
-      return false
-    }
+    } 
+    return false
   }
 }
